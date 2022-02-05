@@ -1,0 +1,17 @@
+.container {
+  max-width: 1366px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.characters {
+  margin: 0 -24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.character-link {
+  width: 22%;
+  margin: 0 16px 16px 16px;
+}

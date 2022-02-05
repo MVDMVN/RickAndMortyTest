@@ -1,0 +1,24 @@
+.character-item {
+  background-color: #ffffff;
+  color: #000000de;
+  border-radius: 10px;
+  padding: 10px 18px;
+  transition: 0.3s;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0px 12px 17px #00081d0d, 0px 5px 22px #00081d0f,
+      0px 7px 8px #00081d14;
+  }
+
+  & &-name {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 6px;
+  }
+
+  & &-status {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
